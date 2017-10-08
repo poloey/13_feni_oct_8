@@ -2,7 +2,7 @@
 ### View [all class list](https://github.com/poloey/feni)
 
 # jQuery
-jQuery is a javascript DOM library. The slogan of jQuery is "write less do more". Today We learn about 4 jquery function
+jQuery is a javascript DOM library. The slogan of jQuery is "write less do more". Today We have learnt about 4 jquery function
 
 * jQuery / $ (selector)
 * html ('html content') / html()
