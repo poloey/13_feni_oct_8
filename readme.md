@@ -2,7 +2,7 @@
 ### View [all class list](https://github.com/poloey/feni)
 
 # jQuery
-jQuery is a javascript DOM library. The slogan on jQuery is "write less do more". Today We learn about 4 jquery function
+jQuery is a javascript DOM library. The slogan of jQuery is "write less do more". Today We learn about 4 jquery function
 
 * jQuery / $ (selector)
 * html ('html content') / html()
@@ -18,6 +18,7 @@ var heading = $('h1');
 
 ### to get html from dom
 ~~~js
+var htmlContent = $('h1').html();
 ~~~
 
 ### to set html 
@@ -32,12 +33,13 @@ var heading = $('h1');
 heading.hide();
 heading.hide(3000);
 ~~~
-Since jQuery Selector is very smaller we should not using variable to store that. We can write directly like following
+Since jQuery Selector very small so we can keep those selector and action in same line. It will saves one line of extra code.
 ~~~js
 $('h1').hide();
 $('h1').hide(3000);
 ~~~
-### to create a event we use `on` function which take 2 arguments. event and function 
+### Event in Jquery
+To create a event we use `on` function which take 2 arguments. event and function 
 ~~~js
 function rezwana () {
   alert('hello  rezwana');
