@@ -1,6 +1,5 @@
+# [:house: Feni Batch Home Page](http://poloey.github.io/feni)
 # Class 13 
-### View [all class list](https://poloey.github.io/feni/)
-
 
 # jQuery
 jQuery is a javascript DOM library. The slogan of jQuery is "write less do more". Today We have learnt about 4 jquery function
